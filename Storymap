@@ -1,29 +1,40 @@
 Story Map
 
 
-Basislogik
+    Basislogik
+
+  "Spielfeld"
+  Als 2d Array um 1/true/alive oder 0/false/dead Status zu speichern/lesen.
+
+  Updateberechnung (Zelle in nächster Iteration tot oder lebendig?)
+  Vorschlag: 9 if Bedingungen (8 für Nachbarn 1 für Zelle) als Funktion, welche zwei Werte zurückliefern:
+  alive: true/false   ist die geprüfte Zelle lebendig oder nicht?
+  neighbors: int (sollte zwischen 0 und 8 sein)   wie viele der Nachbarn der Zelle sind lebendig?
+
+    Design und Layout
+  1.1
+  Basiskonsole von Codeblocks nutzen? Eventuell nicht genug Breite für große Felder.
+  1.2
+  Einfach als Variable deklarieren, welche beim ausführen des Projekts vom Nutzer gesetzt wird.
+  1.3
+  "
+  1.4
+  "
+
+    Spiellogik
+  2.1
+  2.2
+  2.3
 
 
-Design und Layout
-1.1
-1.2
-1.3
-1.4
+    Bedienung
+  3.1
+  3.2
+  3.3
 
-Spiellogik
-2.1
-2.2
-2.3
-
-
-Bedienung
-3.1
-3.2
-3.3
-
-Extras
-4.1
-4.2
-4.3
+    Extras
+  4.1
+  4.2
+  4.3
 
 reference: https://moodle.nibis.de/bbs_osb/pluginfile.php/49398/mod_resource/content/0/Story-Map%20Game%20Of%20Life.pdf
