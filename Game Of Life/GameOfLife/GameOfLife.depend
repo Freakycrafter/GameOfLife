@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1592850466 source:e:\schule\bbs brinkstraﬂe\projekte\game of life\gameoflife\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<unistd.h>
+	<math.h>
+	<string.h>
+
